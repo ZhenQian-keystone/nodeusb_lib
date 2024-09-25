@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "importHelpers": true,
+        "strict": true,
+        "sourceMap": true,
+        "declaration": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "noImplicitOverride": true,
+        "strictNullChecks": false,
+        "removeComments": true,
+        "outDir": "./dist"
+    },
+    "include": [
+        "*"
+    ],
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    }
+}
